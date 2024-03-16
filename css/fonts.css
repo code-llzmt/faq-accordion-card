@@ -1,0 +1,73 @@
+
+/* kumbh-sans-400 (regular) - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/kumbh-sans-v22-latin/kumbh-sans-v22-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../assets/fonts/kumbh-sans-v22-latin/kumbh-sans-v22-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* kumbh-sans-700 (bold) - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/fonts/kumbh-sans-v22-latin/kumbh-sans-v22-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../assets/fonts/kumbh-sans-v22-latin/kumbh-sans-v22-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+body{
+    font-family: 'Kumbh Sans';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*
+#### Text
+- Very dark desaturated blue: hsl(238, 29%, 16%)
+- Soft red: hsl(14, 88%, 65%)
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+
+#### Gradient
+- Soft violet: hsl(273, 75%, 66%)
+- Soft blue: hsl(240, 73%, 65%)
+
+#### Dividers
+- Light grayish blue: hsl(240, 5%, 91%)
+
+*/
+
+h1{
+    font-size: 33px; /* 2.75rem */
+    font-weight: 700;
+    color: hsl(238, 29%, 16%); /* Very dark desaturated blue */
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+h2{
+    font-size: 15px; /* 1.25rem */
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+    line-height: 1;
+    cursor: pointer;
+}
+
+h2:hover{
+    color: hsl(14, 88%, 65%); /* Soft red */
+}
+
+/*
+h2 open accordion (bold + Very dark desaturated blue)
+*/
+
+p{
+    font-size: 12px; /* 1rem */
+    font-weight: 400;
+    color: hsl(240, 6%, 50%); /* Dark grayish blue */
+    line-height: 1.5;
+}
