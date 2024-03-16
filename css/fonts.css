@@ -31,9 +31,6 @@ body{
 - Soft red: hsl(14, 88%, 65%)
 - Very dark grayish blue: hsl(237, 12%, 33%)
 - Dark grayish blue: hsl(240, 6%, 50%)
-
-#### Dividers
-- Light grayish blue: hsl(240, 5%, 91%)
 */
 
 h1{
@@ -65,4 +62,8 @@ p{
     font-weight: 400;
     color: hsl(240, 6%, 50%); /* Dark grayish blue */
     line-height: 1.5;
+}
+
+.dividers{
+    background-color: hsl(240, 5%, 91%); /* light grayish blue */
 }
