@@ -8,4 +8,7 @@
 body{
     width: clamp(375px, 100%, 1440px);
     margin-inline: auto;
+
+    min-height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); /* soft violet, soft blue */;
 }
