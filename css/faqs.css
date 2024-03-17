@@ -6,16 +6,10 @@
     padding: 12rem 2rem;
 }
 
-.faqs-card .faqs-card-images:nth-child(1){ grid-area: a; }
-.faqs-card .faqs-card-accordions:nth-child(2){ grid-area: b; }
-
 /* dekstop layout */
 .faqs-card{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-areas: 
-    'a b';
+    grid-template-columns: 1fr 1fr;
 
     background-color: hsl(0, 0%, 100%);
     max-width: 920px;
@@ -29,13 +23,8 @@
 @media (width <= 768px){
     .faqs-card{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: 
-        'a'
-        'b'
-        'b'
-        'b';
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr;
     }
 }
 
@@ -43,12 +32,6 @@
 .faqs-card-images{
     border: 2px solid brown;
 }
-
-.faqs-card-images picture img{
-    max-width: 100%;
-    
-}
-
 
 /* accordions side */
 .faqs-card-accordions{
