@@ -39,10 +39,18 @@
     }
 }
 
+/* images side */
 .faqs-card-images{
     border: 2px solid brown;
 }
 
+.faqs-card-images picture img{
+    max-width: 100%;
+    
+}
+
+
+/* accordions side */
 .faqs-card-accordions{
     display: flex;
     flex-direction: column;
