@@ -20,7 +20,11 @@
     background-color: hsl(0, 0%, 100%);
     max-width: 920px;
     border-radius: 2rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    /* Not sure if the box-shadow properties are correct, looks nice */
+    box-shadow: 0 30px 30px -24px rgb(29, 30, 53);
 }
+
 /* tablet/mobile layout */
 @media (width <= 768px){
     .faqs-card{
@@ -47,7 +51,7 @@
 
 @media (width > 768px){
     .faqs-card-accordions{
-        padding: 6rem 7.5rem 6.75rem 1.25rem;
+        padding: 15% 20% 15% 1.25rem;
     }
 }
 
