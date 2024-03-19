@@ -1,5 +1,8 @@
 
 const accordionQuestions = document.querySelectorAll('.accordion-question');
+const illustrationBox = document.querySelector('.illustration-box img');
+
+console.log(illustrationBox)
 
 accordionQuestions.forEach(question => {
     question.addEventListener('click', () => {
@@ -20,6 +23,12 @@ accordionQuestions.forEach(question => {
             accordionAnswer.style.maxHeight = accordionAnswer.scrollHeight + 'px';
         }else{
             accordionAnswer.style.maxHeight = 0;
+        }
+
+        if(question.classList.contains('show-answer')){
+            illustrationBox.style.left = '-29%';
+        }else{
+            illustrationBox.style.left = '-20%';
         }
 
     });
