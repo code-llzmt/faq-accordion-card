@@ -99,12 +99,12 @@
 .faqs-card-accordions{
     display: flex;
     flex-direction: column;
-    padding: 0 2rem 4rem 2rem;
+    padding: 4rem 2rem;
 }
 
-@media (width > 768px){
+@media (width < 768px){
     .faqs-card-accordions{
-        padding: 15% 20% 15% 1.25rem;
+        padding: 0 2rem 2rem 2rem;
     }
 }
 
